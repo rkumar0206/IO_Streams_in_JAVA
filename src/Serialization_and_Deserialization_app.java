@@ -1,4 +1,6 @@
 import java.io.*;
+import java.util.Arrays;
+import java.util.List;
 
 // https://www.javatpoint.com/serialization-in-java
 public class Serialization_and_Deserialization_app {
@@ -10,13 +12,19 @@ public class Serialization_and_Deserialization_app {
 
             // Serializing
             Student s1 = new Student("Rohit", 20750282);
+            Student s2 = new Student("Mohit", 250282);
+            Student s3 = new Student("Sagar", 207505582);
+            Student s4 = new Student("Nidhi", 33750282);
+
+            List<Student> list = Arrays.asList(s1, s2, s3, s4);
 
             // Creating stream and writing the object
             FileOutputStream fout = new FileOutputStream("f.txt");
 
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(fout);
 
-            objectOutputStream.writeObject(s1);
+            //objectOutputStream.writeObject(s1);  // serializing only one student object
+            objectOutputStream.writeObject(list);  // serializing the list of Student objects
 
             objectOutputStream.flush();
             objectOutputStream.close();
@@ -29,8 +37,15 @@ public class Serialization_and_Deserialization_app {
             System.out.println("Deserialization....");
             ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream("f.txt"));
 
-            Student s = (Student) objectInputStream.readObject();
-            System.out.println("Student name : " + s.name + " " + "Student Id : " + s.id);
+            //Student s = (Student) objectInputStream.readObject();
+            //System.out.println("Student name : " + s.name + " " + "Student Id : " + s.id);
+
+            List<Student> list1 = (List<Student>) objectInputStream.readObject();
+
+            for (Student student : list1) {
+
+                System.out.println(student.toString());
+            }
 
             objectInputStream.close();
 
@@ -69,5 +84,13 @@ class Student implements Serializable {
 
         this.name = name;
         this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                '}';
     }
 }
