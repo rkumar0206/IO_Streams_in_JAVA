@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c71afda-f5ff-4682-a4a3-68a2c08b4b3d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1yVImvcpfIiYC5IhkM3S9GGm7ul" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.BufferedReader_app2">
+    <configuration name="BufferedReader_app" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BufferedReader_app" />
+      <module name="IO_Streams_In_Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BufferedReader_app2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BufferedReader_app2" />
+      <module name="IO_Streams_In_Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BufferedWriter_app" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BufferedWriter_app" />
+      <module name="IO_Streams_In_Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileReader_app" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileReader_app" />
+      <module name="IO_Streams_In_Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileWriter_app" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileWriter_app" />
+      <module name="IO_Streams_In_Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BufferedReader_app2" />
+        <item itemvalue="Application.BufferedReader_app" />
+        <item itemvalue="Application.BufferedWriter_app" />
+        <item itemvalue="Application.FileReader_app" />
+        <item itemvalue="Application.FileWriter_app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c71afda-f5ff-4682-a4a3-68a2c08b4b3d" name="Default Changelist" comment="" />
+      <created>1632330490172</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632330490172</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1487" height="202" key="GridCell.Tab.0.bottom" timestamp="1632334114661">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1487" height="202" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1632334114661" />
+    <state width="1487" height="202" key="GridCell.Tab.0.center" timestamp="1632334114660">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1487" height="202" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1632334114660" />
+    <state width="1487" height="202" key="GridCell.Tab.0.left" timestamp="1632334114660">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1487" height="202" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1632334114660" />
+    <state width="1487" height="202" key="GridCell.Tab.0.right" timestamp="1632334114660">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1487" height="202" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1632334114660" />
+  </component>
+</project>
